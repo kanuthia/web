@@ -124,7 +124,6 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
   .region-primary-menu .menu-item,
   body:not(:target) .region-primary-menu .menu-item {
     display: inline-block;
-    float: left; /* LTR */
     overflow: visible;
     width: 32.75%;
     height: auto;
@@ -163,7 +162,7 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
 @media all and (min-width: 901px) {
   .region-primary-menu .block-menu .menu {
     margin: 0;
-    padding: 0 15px;
+    padding: 0 10px;
     font-size: 0.929em;
   }
   .region-primary-menu .menu-item,
@@ -172,8 +171,8 @@ body:not(:target) .region-primary-menu .menu-toggle-target-show:target ~ .menu .
     overflow: visible;
     width: auto;
     height: auto;
-    margin: 0 1px;
-    padding: 0 1px;
+    margin: 0 0px;
+    padding: 0 0px;
     list-style: none;
   }
   [dir="rtl"] .region-primary-menu .menu-item,
